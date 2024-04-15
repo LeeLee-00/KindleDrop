@@ -1,0 +1,21 @@
+KindlePDFSender/
+│
+├── app/
+|   ├── venv # virtual environment
+│   ├── __init__.py
+│   ├── main.py          # Main Streamlit application interface
+│   ├── kindle_mailer.py # Module to handle sending emails to Kindle
+│   ├── utils.py         # Utility functions, possibly for file handling, logging, etc.
+|   └── email_config.py  # Config system to handle multiple email providers (outlook, gmail, etc..). 
+|
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_mailer.py   # Tests for email sending functionality
+│   └── test_utils.py    # Tests for utility functions
+│
+├── .gitignore           # Specifies intentionally untracked files to ignore
+├── requirements.txt     # Fixed versions of all the dependencies
+├── setup.py             # Setup script for the application
+├── README.md            # Project overview, setup, configuration, and usage
+└── LICENSE              # The license under which the project is released
