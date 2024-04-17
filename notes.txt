@@ -16,6 +16,5 @@ KindlePDFSender/
 │
 ├── .gitignore           # Specifies intentionally untracked files to ignore
 ├── requirements.txt     # Fixed versions of all the dependencies
-├── setup.py             # Setup script for the application
 ├── README.md            # Project overview, setup, configuration, and usage
 └── LICENSE              # The license under which the project is released
