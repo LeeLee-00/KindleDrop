@@ -22,6 +22,8 @@
   - Provide real-time feedback and status updates within the UI after sending documents to Kindle.
 - **Advanced Configuration Options**:
   - Allow users to customize email subjects and other metadata that might be useful when sending documents to Kindle.
+- **Docker **
+  - Should I add some containers for potential cross project extensions?
 
 ## Performance Optimization
 
