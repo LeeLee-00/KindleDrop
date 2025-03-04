@@ -31,7 +31,12 @@ def main():
     provider = st.selectbox("Email Provider", options=list(EMAIL_PROVIDERS.keys()))
 
     if st.button("Send to Kindle") and uploaded_file is not None:
-        send_pdf_to_kindle(uploaded_file.getvalue(), uploaded_file.name,kindle_email, sender_email, sender_password, provider) 
+        send_pdf_to_kindle(uploaded_file.getvalue(), 
+                           uploaded_file.name,
+                           kindle_email,
+                           sender_email,
+                           sender_password,
+                           provider) 
         st.success("File has been uploaded succesfully!")
 
 if __name__ == "__main__":
