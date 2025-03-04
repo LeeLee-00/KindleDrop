@@ -47,7 +47,7 @@ def send_pdf_to_kindle(file, filename, kindle_email, sender_email, sender_passwo
     part['Content-Disposition'] = f'attachment; filename="{basename(filename)}"'
     msg.attach(part)
 
-    try:
+    try: # TODO: An automated kindle drop user email and password where the user would only have to send their kindle email address. (Don't see the point of having this to be user inpurt int he first place....)
         server = smtplib.SMTP(config['server'], config['port'])
         server.starttls()
         server.login(sender_email, sender_password)
