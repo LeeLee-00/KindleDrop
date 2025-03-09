@@ -29,6 +29,9 @@
 
 - **Asynchronous Operations**:
   - Implement asynchronous processing for file uploads and email sending to enhance the application's performance.
+  
+- **SMTP Error**
+ - Dig deeper in error handling for smtp related logic
 
 ## User Experience Enhancements
 
