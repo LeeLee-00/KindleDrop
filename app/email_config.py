@@ -8,7 +8,7 @@ EMAIL_PROVIDERS = {
         'port': 587
     },
     'outlook': {
-        'server': 'smtp-mail.outlook.com',
+        'server': 'smtp.office365.com',  # updated server address
         'port': 587
     },
     'yahoo': {
